@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+h1,h3{
+    margin-top: 3rem;
+    text-align: center;
+}
+.name{
+    font-size: 50px ;
+    color: white;
+}
+.des{
+    color: white;
+}
+.clgname{
+    color: #c770f0;
+}
+.nametext{
+    font-size: larger;
+    color: #c770f0;
+}
+h6{
+    
+    text-align: center;
+}
+.intro{
+    margin-top: 5rem;
+    border:5px solid #9381FF;
+    padding: 5%;
+    border-radius: 45px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.myimg{
+    width: 80%;
+    /* height: 60%; */
+    margin-left: 50px;
+    border-radius: 25%;
+    /* margin-top: 2.5rem; */
+    padding: 30px;
+}
+.heading{
+    margin-top: 3rem;
+}
+.btn{
+   background-color: white;
+   color: black;
+}
+.btn:hover{
+    background-color: #9381FF;
+}

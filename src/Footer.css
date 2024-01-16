@@ -1,0 +1,61 @@
+.footer{
+    background-color: black;
+   bottom: 0;
+   /* position: absolute; */
+   width: 100%;
+   color: #c770f0;
+   
+
+}
+/* @media (max-width: 768px)
+{
+    position: relative;
+} */
+
+a{
+    text-decoration: none;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+h6{
+    color:#c770f0;
+}
+
+    .fimage {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+
+      .icons{
+        padding-top: 1rem;
+      }
+     
+.github-image{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.25rem;
+}
+.x-image{
+    width: 40px;
+    margin-top: 0.25rem;
+}
+.icons{
+  text-align: center;
+  margin-top: 1rem;
+}
+.footer-router{
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .fimage {
+      max-width: 50px; /* Adjust the maximum width for smaller screens */
+      
+    }
+    .frow{
+        text-align: center;
+    }
+  }

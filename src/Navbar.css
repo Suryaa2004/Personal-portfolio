@@ -1,0 +1,37 @@
+.title{
+    margin-left: auto;
+    
+}
+.item{
+    font-size: larger;
+    margin-left: 2.5rem;
+    color: black;
+}
+.item:hover{
+    color: #c770f0;
+}
+.nav{
+    background-color: #B8B8FF;
+   
+    /* width: 100%; */
+    /* top: 0; */
+    /* overflow: hidden; */
+    /* z-index: 1000; */
+   
+}
+@media (max-width: 768px){
+    .title{
+        /* margin-top: 1rem; */
+        width: 12rem;
+        height: 18rem;
+        border-radius: 2rem;
+        background-color:#B8B8FF;
+         position: absolute; 
+        right: 0;
+        text-align: center;
+        
+    }
+}
+.navbar-toggler{
+    background-color: white;
+}
