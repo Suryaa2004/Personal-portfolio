@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 
 const Text = styled.p`
-  font-family: 'Lato', sans-serif;
+  font-family: 'Outfit', sans-serif;
   
 `;
 

@@ -5,6 +5,7 @@ import swot from "./swot.png";
 import portfolio from "./portfolio.webp";
 import tindog from "./tindog.jpeg";
 import ieee from "./ieee.jpeg";
+import Text from "./Text";
 function Flipcard() {
     return (
       <>
@@ -23,17 +24,17 @@ function Flipcard() {
                       alt=""
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3>HOSTEL MANAGEMENT SYSTEM</h3>
+                    <h3><Text>HOSTEL MANAGEMENT SYSTEM</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#9381FF ' }}>
-                    <h5>HOSTEL MANAGEMENT SYSTEM</h5>
-                    <p>
-                    This is a Web Application for online Hostel Room Booking System.This is done to minimize the work of people going in person and booking the hostel room This project reduces the time of the individuals spent on offline to book their rooms at their colleges and universities
+                    <h5> <Text>HOSTEL MANAGEMENT SYSTEM</Text></h5>
+                    <p><Text>This is a Web Application for online Hostel Room Booking System.This is done to minimize the work of people going in person and booking the hostel room This project reduces the time of the individuals spent on offline to book their rooms at their colleges and universities
+                    </Text>
                     </p>
-                    <p>
-                     Users can book the rooms and booking details are sent to admins immediately after user books. Users can send emails to admin seeking their queries to change the room. Users can check the availability of the booked rooms and choose their room accordingly.
+                    <p> <Text> Users can book the rooms and booking details are sent to admins immediately after user books. Users can send emails to admin seeking their queries to change the room. Users can check the availability of the booked rooms and choose their room accordingly.
+</Text>
                     </p>
-                    <a href=""><button class='btn btn-primary'>Know more</button></a>
+                    <a href="https://github.com/Suryaa2004/Hostel-Room-Booking"><button class='btn btn-primary'>Know more</button></a>
                   </div>
                 </div>
               </div>
@@ -48,7 +49,7 @@ function Flipcard() {
                       alt=""
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3>SWOT ANALYSIS PLATFORM</h3>
+                    <h3> <Text>SWOT ANALYSIS PLATFORM</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#c770f0' }}>
                     <h5>SWOT ANALYSIS PLATFORM</h5>
@@ -63,7 +64,7 @@ details are securely stored in databases, ensuring data confidentiality.
 information from users. Based on their responses, the platform generates a detailed report that quantifies
 the company's strengths, weaknesses, opportunities, and threats as percentages.
                     </p>
-                    <a href=""><button class='btn btn-primary'>Know more</button></a>
+                    <a href="https://github.com/Suryaa2004/swot-analysis"><button class='btn btn-primary'>Know more</button></a>
                   </div>
                 </div>
               </div>
@@ -78,7 +79,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                       alt="Avatar"
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3>PERSONAL PORTFOLIO</h3>
+                    <h3><Text>PERSONAL PORTFOLIO</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#9381FF' }}>
                     <h5>PERSONAL PORTFOLIO</h5>
@@ -88,7 +89,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                     <p>
                     This portfolio serves as a dynamic snapshot of my professional journey, providing visitors with a holistic view of my skills, accomplishments, and commitment to continuous learning
                     </p>
-                    <a href=""><button class='btn btn-primary'>Know more</button></a>
+                    <a href="https://github.com/Suryaa2004/Portfolio"><button class='btn btn-primary'>Know more</button></a>
                   </div>
                 </div>
               </div>
@@ -105,7 +106,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                       alt="Avatar"
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3>TINDOG</h3>
+                    <h3><Text>TINDOG</Text></h3>
                   </div>
                   <div class="back" style={{ background:'#c770f0' }}>
                     <h5>TINDOG</h5>
@@ -116,7 +117,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                     Tindog offers a user-friendly platform for enthusiasts and prospective pet owners, featuring a wide array of dog breeds with detailed descriptions, pricing, and seamless transaction capabilities. This website combines a visually appealing design with practical functionality, creating an enjoyable and efficient experience for users interested in finding their ideal canine companion
 
                     </p>
-                    <a href=""><button class='btn btn-primary'>Know more</button></a>
+                    <a href="https://github.com/Suryaa2004/Tindog"><button class='btn btn-primary'>Know more</button></a>
                   </div>
                 </div>
               </div>
@@ -131,7 +132,7 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                       alt="Avatar"
                       style={{ width: '300px', height: '250px' }}
                     />
-                    <h3>IEEE CONSORTIUM</h3>
+                    <h3><Text>IEEE CONSORTIUM</Text></h3>
                   </div>
                   <div class="back" style={{ background: '#9381FF ' }}>
                     <h5>IEEE CONSORTIUM</h5>
@@ -142,13 +143,14 @@ the company's strengths, weaknesses, opportunities, and threats as percentages.
                     Additionally, it features dedicated sections highlighting various IEEE societies, fostering a sense of community and facilitating engagement among members interested in specific technical domains.
 
                     </p>
-                    <a href=""><button class='btn btn-primary'>Know more</button></a>
+                    <a href="https://github.com/Suryaa2004/rec-ieee"><button class='btn btn-primary'>Know more</button></a>
                   </div>
                 </div>
               </div>
             </div>
 
           </div>
+          
         </div>
       </>
     );

@@ -4,11 +4,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
 import React from 'react';
+import Text from './Text';
 function Navbar2() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav fixed-top">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        
+        <Navbar.Brand href="#home">SKS</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='navbar-toggler' />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="title">
@@ -21,6 +23,7 @@ function Navbar2() {
           </Nav>
          
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
   );
